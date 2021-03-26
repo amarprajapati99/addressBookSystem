@@ -8,7 +8,8 @@ public class AddressBookSystem {
 		System.out.println("Welcome to address book program");
 
 		String name, lastName, address, city, state, emailId;
-		int zipCode, mobileNumber;
+		int zipCode, 
+		long mobileNumber;
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your first name");
@@ -31,8 +32,8 @@ public class AddressBookSystem {
 		System.out.println("Enter your zip code");
 		zipCode = sc.nextInt();
 
-		System.out.println("Enter your mobile nuber");
-		mobileNumber = sc.nextInt();
+		System.out.println("Enter your mobile number");
+		mobileNumber = sc.nextLong();
 
 		System.out.println(name + "" + lastName);
 		System.out.println(address + " " + city + " " + zipCode + " ," + mobileNumber + " " + emailId);
