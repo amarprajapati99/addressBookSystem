@@ -32,7 +32,7 @@ public class AddressBookSystem {
 		System.out.println("Enter your zip code");
 		zipCode = sc.nextInt();
 
-		System.out.println("Enter your mobile nuber");
+		System.out.println("Enter your mobile number");
 		mobileNumber = sc.nextLong();
 
 		System.out.println(name + "" + lastName);
